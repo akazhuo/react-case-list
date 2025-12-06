@@ -1,0 +1,53 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 45px 0 20px;
+  border-radius: 10px;
+  text-align: center;
+  background: #eee;
+}
+
+.content-list {
+  height: 50vh;
+  width: 500px;
+  overflow: hidden scroll;
+}
+
+.block_header {
+  padding-top: 20px;
+  text-align: left;
+  background-color: #efefef;
+}
+
+.block_content {
+  height: 200px;
+  background-color: #ccc;
+}
+
+.letter-list {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  padding: 8px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.letter-item {
+  flex: 1;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.letter-item.active {
+  color: #fff;
+  background-color: #ef5350;
+}
