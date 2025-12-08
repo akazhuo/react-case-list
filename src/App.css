@@ -15,11 +15,15 @@
 .content-list {
   height: 50vh;
   width: 500px;
+  padding-bottom: 20px;
   overflow: hidden scroll;
 }
 
+.list-item {
+  margin-top: 20px;
+}
+
 .block_header {
-  padding-top: 20px;
   text-align: left;
   background-color: #efefef;
 }
@@ -43,8 +47,12 @@
 
 .letter-item {
   flex: 1;
+  display: flex;
   padding: 0 8px;
   font-size: 12px;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .letter-item.active {
